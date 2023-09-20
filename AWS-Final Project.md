@@ -175,7 +175,7 @@ apt-get install python3 python3-pip python3-venv -y
 apt-get install python3.8-dev default-libmysqlclient-dev -y
 cd /home/ubuntu/
 TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-git clone https://$TOKEN@github.com/Rfaqiri/BlogDjango.git
+git clone https://$TOKEN@github.com/Rfaruk/BlogDjango.git
 # virtual env for Django
 python3 -m venv venv
 source venv/bin/activate
@@ -379,7 +379,7 @@ Scaling policies
 Create new Notification
     - Notification1
         - Send a notification to    :awsproject-SNS
-        - with these recipients     : rahmatullah.techproed@gmail.com
+        - with these recipients     : rahmatullah.myed@gmail.com
         - event type                : select all 
 ```
 
